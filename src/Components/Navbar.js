@@ -1,7 +1,7 @@
 import React from 'react'
 // import { FormControl,Form,NavDropdown,Nav,Button, Navbar } from 'react-bootstrap'
 import "./Styles/Navbar.css";
-import image from "D:/Hexagon Foundation/foundation_frontend/src/Components/Images/logo.png";
+import image from "./Images/logo.png";
 
 // import logo from "./Hexagon.png"
 

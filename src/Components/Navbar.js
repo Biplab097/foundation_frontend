@@ -1,7 +1,11 @@
 import React from 'react'
 // import { FormControl,Form,NavDropdown,Nav,Button, Navbar } from 'react-bootstrap'
 import "./Styles/Navbar.css";
+<<<<<<< HEAD
 import image from "./Images/logo.png";
+=======
+import image from "D:/GitHub/foundation_frontend/src/Components/Images/logo.png";
+>>>>>>> 4af3b0737f6927efa51421f873aa641b958a1bc2
 
 // import logo from "./Hexagon.png"
 

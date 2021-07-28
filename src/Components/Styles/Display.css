@@ -1,7 +1,8 @@
 .background{
     background-image: linear-gradient( beige, skyblue );
     width: 80%;
+    
     margin-left: 10%;
-    height: 1000px;
-    margin-top: 60px;
+    height: 100%;
+    margin-top: 48px;
 }

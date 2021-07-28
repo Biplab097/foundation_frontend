@@ -10,12 +10,7 @@ function NavBar() {
   <div className="navbar">
     <div class="topnav">
       <a class="active" href="#home">Home</a>
-      <input class="search"
-            type="text"
-            id="header-search"
-            placeholder="Search Products"
-            name="s" 
-        />
+      <input type="text" id="search" class="search" placeholder="Search Products"/>
         <img src={image} class="imagestyle"/>
      
     </div>

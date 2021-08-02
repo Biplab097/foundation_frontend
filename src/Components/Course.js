@@ -1,13 +1,14 @@
 import React from 'react';
-import './Styles/Display.css';
+import './Styles/Course.css';
 import SmartBuild from './SmartBuild.js';
 import Smart3D from './Smart3D.js';
 
-function Display(){
+
+function Course(){
     return(<div class="background">
 <SmartBuild />
 <Smart3D />
 </div>
     )
 }
-export default Display
+export default Course

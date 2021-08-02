@@ -1,0 +1,16 @@
+.search{
+    width:20%;
+    height:100%;
+    scroll-behavior: smooth;
+    background-image: linear-gradient( beige, skyblue );
+}
+
+.video{
+    width: 80%;
+    height: 75%;
+}
+
+.description{
+    width: 80%;
+    height: 25%;
+}

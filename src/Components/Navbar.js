@@ -1,28 +1,41 @@
 import React from 'react'
 // import { FormControl,Form,NavDropdown,Nav,Button, Navbar } from 'react-bootstrap'
 import "./Styles/Navbar.css";
-<<<<<<< HEAD
-import image from "./Images/logo.png";
+
+//import image from "./Images/logo.png";
 =======
-import image from "D:/GitHub/foundation_frontend/src/Components/Images/logo.png";
->>>>>>> 4af3b0737f6927efa51421f873aa641b958a1bc2
+import image from "./Images/logo.png";
+
+import history  from '../history';
 
 // import logo from "./Hexagon.png"
 
 function NavBar() {
     return (
   <div className="navbar">
-    <div class="topnav">
-      <a class="active" href="#home">Home</a>
-      <input class="search"
-            type="text"
-            id="header-search"
-            placeholder="Search Products"
-            name="s" 
-        />
-        <img src={image} class="imagestyle"/>
+    {/* <div class="topnav">
+      <div><img src={image} class="imagestyle"/></div>
+      <div>
+      <a class="menubuttons" href="#Dashborad">Dashboard</a>
+      <a class="menubuttons" href="#Course">Course</a>
+      <input type="text" id="search" class="search" placeholder="Search Products"/></div>
+        
      
-    </div>
+    </div> */}
+    <table class="table">
+      <tr>
+        <td class="imagedata">
+          <img src={image} class="imagestyle"/>
+        </td>
+        <td class="buttondata">
+          <a class="buttons" href="/Dashboard" onClick={() => history.push('/Dashboard')}>Dashboard</a>
+          <a class="buttons" href="/Course"onClick={() => history.push('/Course')}>Course</a>
+        </td>
+      <td class="searchdata">
+        <input type="text" id="search" class="search" placeholder="Search Products"/>
+      </td>
+      </tr>
+    </table>
   </div>
     )
 }

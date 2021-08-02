@@ -38,8 +38,8 @@ import { render } from '@testing-library/react';
 function SmartBuild(){
     return(
         <div>
-            <h2>Smart Build</h2>
-            <Carousel itemsToShow={3} transitionMs={10000} disableArrowsOnEnd={true}>
+            <h2>  Smart Build</h2>
+            <Carousel itemsToShow={3} transitionMs={1000} disableArrowsOnEnd={true}>
             <div class="cells">
                 <img  src={image1} alt="1" class="images1"/>
             </div>

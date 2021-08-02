@@ -35,7 +35,7 @@ import { render } from '@testing-library/react';
 function Smart3D(){
     return(
         <div>
-            <h2>Smart 3D</h2>
+            <h2>  Smart 3D</h2>
             <Carousel itemsToShow={3} autoPlaySpeed={10000} disableArrowsOnEnd={true}>
             <div class="cells">
                 <img  src={image1} alt="1" class="images1"/>

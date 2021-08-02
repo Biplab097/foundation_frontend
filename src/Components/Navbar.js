@@ -1,8 +1,13 @@
 import React from 'react'
 // import { FormControl,Form,NavDropdown,Nav,Button, Navbar } from 'react-bootstrap'
 import "./Styles/Navbar.css";
-import image from "D:/GitHub/foundation_frontend/src/Components/Images/logo.png";
+
+//import image from "./Images/logo.png";
+=======
+import image from "./Images/logo.png";
+
 import history  from '../history';
+
 // import logo from "./Hexagon.png"
 
 function NavBar() {
@@ -23,8 +28,8 @@ function NavBar() {
           <img src={image} class="imagestyle"/>
         </td>
         <td class="buttondata">
-          <a class="buttons" href="http://localhost:3000/Dashboard" onClick={() => history.push('/Dashboard')}>Dashboard</a>
-          <a class="buttons" href="http://localhost:3000/Course"onClick={() => history.push('/Course')}>Course</a>
+          <a class="buttons" href="/Dashboard" onClick={() => history.push('/Dashboard')}>Dashboard</a>
+          <a class="buttons" href="/Course"onClick={() => history.push('/Course')}>Course</a>
         </td>
       <td class="searchdata">
         <input type="text" id="search" class="search" placeholder="Search Products"/>

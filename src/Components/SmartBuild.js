@@ -8,6 +8,7 @@ import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Carousel from 'react-elastic-carousel'
 import { render } from '@testing-library/react';
+import history from '../history';
 // var Carousel1 = require( '3d-react-carousal').Carousel;
 
 // class SmartBuild extends React.Component {
@@ -41,7 +42,7 @@ function SmartBuild(){
             <h2>  Smart Build</h2>
             <Carousel itemsToShow={3} transitionMs={1000} disableArrowsOnEnd={true}>
             <div class="cells">
-                <img  src={image1} alt="1" class="images1"/>
+                <a href="/SmartBuild"onClick={() => history.push('/SmartBuild')}><img  src={image1} alt="1" class="images1"/></a>
             </div>
             <div class="cells">
                 <img  src={image2} alt="1" class="images1"/>

@@ -23,8 +23,8 @@ function NavBar() {
           <img src={image} class="imagestyle"/>
         </td>
         <td class="buttondata">
-          <a class="buttons" href="http://localhost:3000/Dashboard" onClick={() => history.push('/Dashboard')}>Dashboard</a>
-          <a class="buttons" href="http://localhost:3000/Course"onClick={() => history.push('/Course')}>Course</a>
+          <a class="buttons" href="/Dashboard" onClick={() => history.push('/Dashboard')}>Dashboard</a>
+          <a class="buttons" href="/Course"onClick={() => history.push('/Course')}>Course</a>
         </td>
       <td class="searchdata">
         <input type="text" id="search" class="search" placeholder="Search Products"/>

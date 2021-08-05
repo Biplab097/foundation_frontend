@@ -1,8 +1,13 @@
 import React from 'react'
 // import { FormControl,Form,NavDropdown,Nav,Button, Navbar } from 'react-bootstrap'
 import "./Styles/Navbar.css";
-import image from "D:/GitHub/foundation_frontend/src/Components/Images/logo.png";
+
+//import image from "./Images/logo.png";
+=======
+import image from "./Images/logo.png";
+
 import history  from '../history';
+
 // import logo from "./Hexagon.png"
 
 function NavBar() {

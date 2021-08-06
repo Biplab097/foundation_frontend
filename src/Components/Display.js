@@ -5,8 +5,8 @@ import Smart3D from './Smart3D.js';
 
 function Display(){
     return(<div class="background">
-<SmartBuild />
-<Smart3D />
+        <SmartBuild />
+        <Smart3D />
 </div>
     )
 }

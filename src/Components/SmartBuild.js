@@ -1,7 +1,7 @@
 import React from 'react';
-import image1 from 'D:/GitHub/foundation_frontend/src/Components/Images/1.1_Create_a_project_First_Frame.png';
-import image2 from 'D:/GitHub/foundation_frontend/src/Components/Images/2.1_Schedule_management_First_Frame.png';
-import image3 from 'D:/GitHub/foundation_frontend/src/Components/Images/2.2_3D_viewing_or_navigation_First_Frame.png';
+import image1 from './Images/1.1_Create_a_project_First_Frame.png';
+import image2 from './Images/2.1_Schedule_management_First_Frame.png';
+import image3 from './Images/2.2_3D_viewing_or_navigation_First_Frame.png';
 import './Styles/Section.css';
 
 function SmartBuild(){
